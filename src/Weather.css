@@ -4,7 +4,6 @@
   padding: 16px;
   border-radius: 4px;
   margin: 30px auto;
-  max-width: 600px;
 }
 
 .Weather h1 {
@@ -13,10 +12,6 @@
   line-height: 26px;
   font-weight: 400;
   margin-top: 20px;
-}
-
-.btn {
-  margin: auto;
 }
 
 .Weather ul {
@@ -31,4 +26,21 @@
   line-height: 20px;
   font-weight: 400;
   list-style: none;
+}
+
+.Weather img {
+  height: 64px;
+  float: left;
+  margin-right: 10px;
+}
+
+.Weather .temperature {
+  font-size: 40px;
+  line-height: 64px;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  position: relative;
+  top: -16px;
 }
